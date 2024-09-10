@@ -2,6 +2,7 @@
 # # This week we will work on :
 # # Working With Strings
 
+
 # # 1.   Working With Numbers
 # # 2.   Getting Input From Users
 
@@ -14,22 +15,41 @@
 # # Review
 # create variables for the following :
 # 1. age
+age = 16 #integer variab;e
 # 2. name
+name = "mayra" #string variable
 # 3. song
+song = "open arms" #string variable
 # 4. food
+food = "pizza" #string variable
 # 5. number
-
+number = 1000 #integer variablr
 
 # #now include the variables you just made print in the following...
 
 
 # Once upon a time, there was a [age] old coder named [name].
+#concatenation --- a+ around your variables
+print("One upon a time, there was a " + str(age) + " old coder named " + name +".")
+print("there was a number " + str(number) + " as well")
+# put the age and number in a new sentence
+print("She was " + str(age) + " years old and she was number " + str(number))
 
+date_of_birth = 2021
+number2 = 123
+number3 = 123.456
+number4 = 123.33
+number5 = 4555
+
+print("The coder was born in " + str(date_of_birth) + " on the " + str(number2) + " second of the day, as she got older, she was able to run 2 miles in " + str(number3) + " seconds" )
+
+print(f"the date of birth is {date_of_birth} and the number is {number2} and the number is {number3} and the number is {number4} and the number is {number5}")
 
 # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
-
+print(f"{name} liked to hum to the song {song} while coding. It was so annoying that their teammate would throw {food} until {name} would stop singing")
 
 # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
+print(f"still {name} was the best coder on the team and could write {number} lines of code every day. Maybe {song} was {name}'s secret power? ")
 ##########################################################################################
 
 
