@@ -190,9 +190,11 @@ print(ceil(num1))
 # # On to codehs.com
 
 color = "pink"
+print("Roses are "+  color)
+
+
+ 
 
 
 
-
-
-
+ 
