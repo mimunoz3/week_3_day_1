@@ -189,8 +189,9 @@ print(ceil(num1))
 # print("I love {celebrity}")
 # # On to codehs.com
 
-color = "pink"
-print("Roses are "+  color)
+color = input("enter a color:")
+print("Roses are"+  color)
+
 
 
  
