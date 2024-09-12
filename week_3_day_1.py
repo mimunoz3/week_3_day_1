@@ -149,28 +149,36 @@ print("the ceil of 6.4 is", ceil(6.4))
 # # **Getting Input from users**
 # #how do we get input from users?
 # input("what is your name?")
-name = input("what is your name?")
-print("hello",name)
+#name = input("what is your name?")
+#print("hello",name)
 # # basic math calculator
 # #ask the user for 2 numbers
-num1 = int(input("enter a number:"))
-num2 = int(input("enter another number:")) 
+#num1 = int(input("enter a number:"))
+#num2 = int(input("enter another number:")) 
 # # print out a statement where you:
 # # add them together
-print(num1 + num2)
+#print(num1 + num2)
 # #multiply
-print(num1 * num2)
+#print(num1 * num2)
 # # find the max number
-print(max (num1, num2))
+#print(max (num1, num2))
 # # find the remainder of the numbers
-print(num1%num2)
+#print(num1%num2)
 # #round one number
-print(round(num1))
+#print(round(num1))
 
 
 
-
-
+name = input("what is your name?")
+print("hello",name)
+num1 = int(input("enter a number:"))
+num2 = int(input("enter another number:")) 
+print(num1 - num2 )
+print(num1/num2)
+print(min(num1,num2))
+print(abs (num1))
+print(floor(num1))
+print(ceil(num1))
 
 
 
@@ -181,6 +189,7 @@ print(round(num1))
 # print("I love {celebrity}")
 # # On to codehs.com
 
+color = "pink"
 
 
 
